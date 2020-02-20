@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Slabo 27px', serif;
+    height: 2000px
+}
+
+.header {
+    max-width: 1365px;
+    height: 700px;
+
+}
+
+.head {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    position: relative
+}
+
+.head .logo-menu {
+    max-width: 50%;
+    flex-basis: 50%;
+    display: flex;
+}
+
+.logo-menu .logo {}
+
+.logo img {
+    width: 180px;
+    height: 40px;
+  
+    margin-left: -15px;
+    margin-top: 20px
+}
+
+.menu {}
+
+.menu ul {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px
+}
+
+.menu ul li {
+    list-style-type: none;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 6px 12px;
+    display: inline-block;
+    font-size: 20px;
+    color: #B8B8B8;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-right: 10px;
+
+
+
+}
+
+.menu ul li a:hover {
+    color: #08A317;
+    border: 2px solid #B8B8B8;
+    box-shadow: 2px 2px 2px #B8B8B8;
+
+}
+
+.right-head {
+    max-width: 50%;
+    flex-basis: 50%;
+    display: flex;
+
+    position: absolute;
+    right: 0;
+    z-index: 5;
+    margin-top: 1px
+}
+
+.right-head .submit {
+    margin-top: 22px;
+    position: relative
+}
+
+.submit input {
+    width: 280px;
+    height: 35px;
+    padding: 0px 5px;
+    border: 2px solid #B8B8B8;
+    margin-right: 20px;
+    color: #B5B6B8;
+    font-size: 16px;
+    border-radius: 8px;
+    padding-right: 110px
+}
+
+#mit {
+    color: #B8B8B8;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-size: 18px;
+
+
+}
+
+.right-head .sign {
+    margin-top: 18px;
+    font-size: 22px;
+
+
+}
+
+.sign a {
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+
+
+    border-radius: 20px;
+    margin-left: 5px;
+    color: red;
+    font-weight: bold
+}
+
+.sign a:hover {
+    color: white;
+    background: linear-gradient(to right, #15EE27, #29BBCA);
+
+}
+
+
+
+/********** Banner Start************/
+
+
+
+
+.banner {
+
+    max-width: 1200px;
+    margin: auto;
+    
+}
+#ige {
+
+
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+    width: 800px
+}
+
+.banner h1 {
+    font-size: 102px;
+    letter-spacing: 5px;
+    color: #00A314;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-top: 50px
+}
+
+.banner p {
+    width: 400px;
+    color: gray;
+    font-size: 18px;
+    padding: 5px 0px
+}
+
+.banner h2 {
+    padding: 10px 0px 5px 0px
+}
+
+.banner a {
+    text-decoration: none
+}
+
+.banner select {
+    width: 180px;
+    height: 28px;
+    border-radius: 20px;
+    padding: 0px 5px;
+    font-size: 14px;
+    background: linear-gradient(to right, #15EE27, #29BBCA);
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+
+}
+
+.banner option {}
+
+
+///*****************Meader Start****************/
+.meader {
+    max-width: 1365px;
+
+}
+
+.mead {
+    max-width: 1200px;
+    margin: auto
+}
+
+.mead h1 {
+    text-align: center;
+    color: #109615;
+    font-size: 62px;
+    text-transform: uppercase
+
+}
+
+.mead hr {
+    width: 540px;
+    height: 2px;
+    background-color: #C2C2C2;
+    border: 2px solid #C2C2C2;
+    text-align: center;
+    margin-left: 330px
+}
+
+
+
+.three-wrap {
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    margin-top: 50px
+}
+
+.onefloat {
+    width: 32%;
+    flex-basis: 32%;
+    position: relative;
+    margin-right: 2%
+}
+
+.onefloat img {}
+
+.onefloat .green {
+    width: 80px;
+    height: 35px;
+
+    position: absolute;
+    top: 185px;
+
+    transition: all ease .5s;
+    right: 0;
+    background:
+        linear-gradient(to top, rgba(21, 238, 39, 0.8), rgba(41, 187, 202, 0.8));
+    cursor: pointer
+}
+
+.onefloat .green p {
+    font-size: 19px;
+    color: white;
+
+    text-align: center;
+
+}
+
+.onefloat .green:hover {
+    width: 100%;
+    height: 61.5%;
+    top: 0;
+
+}
+
+.onefloat .green:hover p {
+    font-size: 62px;
+    margin-top: 80px
+}
+
+.onefloat p {
+    font-size: 17px;
+    font-weight: bold;
+    color: #101010;
+    padding: 5px 0px;
+    cursor: pointer
+}
+
+.onefloat h4 {
+    color: #C0C0C0
+}
+
+a {
+    text-decoration: none
+}
+
+.twofloat {
+    width: 32%;
+    flex-basis: 32%;
+    position: relative;
+    margin-right: 2%
+}
+
+.twofloat img {}
+
+.twofloat .blue {
+
+    width: 80px;
+    height: 35px;
+
+    position: absolute;
+    top: 185px;
+
+    transition: all ease .5s;
+    right: 0;
+    background:
+        linear-gradient(to top, rgba(21, 238, 39, 0.8), rgba(41, 187, 202, 0.8));
+    cursor: pointer
+}
+
+.twofloat .yello{
+     width: 100%;
+    height: 61.5%;
+    top: 0px;
+}
+
+.twofloat .blue:hover {
+    width: 100%;
+    height: 61.5%;
+    top: 0;
+
+}
+
+.twofloat .blue:hover p {
+    font-size: 62px;
+    margin-top: 82px;
+}
+
+.twofloat .blue p {
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+    text-align: center
+}
+
+.twofloat p {
+    font-size: 17px;
+    font-weight: bold;
+    color: #101010;
+    padding: 5px 0px;
+    cursor: pointer
+}
+
+.twofloat h4 {
+    color: #C0C0C0
+}
+
+
+.threefloat {
+    width: 32%;
+    flex-basis: 32%;
+    position: relative;
+
+}
+
+.threefloat img {}
+
+.threefloat .black {
+
+    width: 80px;
+    height: 35px;
+
+    position: absolute;
+    top: 185px;
+
+    transition: all ease .5s;
+    right: 0;
+    background:
+        linear-gradient(to top, rgba(21, 238, 39, 0.8), rgba(41, 187, 202, 0.8));
+    cursor: pointer
+}
+
+.threefloat .black p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+
+}
+
+.threefloat .black:hover {
+    width: 100%;
+    height: 61.5%;
+    top: 0;
+
+
+
+}
+
+.threefloat .black:hover p {
+    font-size: 62px;
+    margin-top: 80px;
+
+}
+
+.threefloat p {
+    font-size: 17px;
+    font-weight: bold;
+    color: #101010;
+    padding: 5px 0px;
+    cursor: pointer
+}
+
+.threefloat h4 {
+    color: #C0C0C0
+}
+
+span {
+    color: #1A51DD;
+    font-weight: bold
+}
+
+.three-wrap img {
+    width: 100%;
+    height: 220px
+}
+
+#dak {
+    font-size: 32px;
+    text-align: start
+}
+
+.more {
+    background:
+        linear-gradient(to top, rgba(21, 238, 39, 0.8), rgba(41, 187, 202, 0.8));
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #1DCC39;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    cursor: pointer
+}
+
+.more:hover {
+    background:
+        linear-gradient(to top, rgba(41, 248, 49, 0.8), rgba(25, 287, 242, 0.8));
+}
+
+.usa {
+    font-size: 80px;
+    text-align: center;
+    color: #04A30C;
+    margin-top: 120px;
+    margin-bottom: 0px
+}
+
+/***********Footer Start*********/
+.footer {
+    max-width: 1365px;
+    background:
+        linear-gradient(to right, rgba(41, 248, 49, 0.8), rgba(25, 287, 242, 0.8));
+    height: 100px;
+    margin-top: 1px
+}
+
+.foot {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    position: relative
+        
+}
+
+.foot .lfoot {
+    max-width: 50%;
+    flex-basis: 50%
+}
+
+.foot .lfoot i {
+    font-size: 42px;
+    display: inline-block;
+    margin-top: 20px;
+    color: white
+}
+
+.foot .lfoot p {
+    padding-left: 80px;
+    padding-right: 180px;
+    margin-top: -60px;
+    color: lightcyan
+}
+
+.foot .fmenu {
+    position: absolute;
+    right: 0
+}
+
+.foot .fmenu ul {
+    display: flex;
+    margin-top: 25px
+}
+
+.foot .fmenu ul li {
+    list-style-type: none
+}
+
+.foot .fmenu ul li a {
+    display: inline-block;
+    padding: 8px 12px;
+    color: white;
+    font-size: 22px
+}
+
+.foot .fmenu ul li i {}
+
+.foot .fmenu ul li a:hover i {
+    color: black
+}
